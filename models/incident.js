@@ -32,6 +32,9 @@ const Incident = database.define('incident', {
     incidentPriority: {
         type:Sequelize.STRING
     },
+    incidentSummary:{
+        type:Sequelize.STRING
+    },
     incidentType: {
         type:Sequelize.STRING
     },
